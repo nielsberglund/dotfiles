@@ -1,0 +1,14 @@
+{
+  //name of theme to run hugo with
+  "DefaultTheme": "hyde-hyde",
+  //root directory for hugo website use double backwork slash for windows
+  //e.g. windows C:\\Users\\myusername\\
+  //e.g. Linux/Mac /home/myusername
+  "Directory": "W:\\nielsb-work\\GitHub-Repos\\nielsberglund.com",
+  "Server":
+  {
+    "PORT": 1313 //server port number
+  },
+  //website name
+  "Sitename": "Niels Berglund"  
+}

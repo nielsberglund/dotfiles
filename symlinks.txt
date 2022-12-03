@@ -1,0 +1,5 @@
+ln -s /Users/niels/repos/dotfiles/iterm2/com.googlecode.iterm2.plist /Users/niels/Library/Preferences/com.googlecode.iterm2.plist
+
+ln -s /Users/niels/repos/dotfiles/sublime/Sublime\ Text   /Users/niels/Library/Application\ Support/Sublime\ Text
+
+ln -s /Users/niels/repos/dotfiles/pandoc/pandoc /Users/niels/.local/share/pandoc

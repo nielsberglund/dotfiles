@@ -1,0 +1,752 @@
+{
+	"folder_history":
+	[
+		"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/_scratchpad"
+	],
+	"last_version": 4126,
+	"last_window_id": 42,
+	"log_indexing": false,
+	"next_update_check": 1658510183,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 788.0,
+		"new_window_maximized": false,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"pr",
+						"printf"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"js",
+						"Pretty JSON: Format and Sort JSON"
+					],
+					[
+						"com",
+						"Compare with..."
+					],
+					[
+						"json",
+						"Pretty JSON: Format (Pretty Print) JSON"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"",
+						"Hugofy : New Post"
+					],
+					[
+						"hug",
+						"Hugofy : New Post"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"mark",
+						"MarkdownLivePreview: Edit Current File"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 185.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/niels/.gitconfig",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/create-test-streams-tables",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/movies-test",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/tombstone-test.txt",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/collect-list.txt",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_site/atom.xml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-10-interesting-stuff---week-27-2022.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-17-interesting-stuff---week-28-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_scratchpad/atom.xml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2022/sessions/ksqldb/code/sql/01-setup.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/docker/docker-compose-local-azure-only.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/KafkaEventGenerator/UserProductConfig.cs",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/KafkaEventGenerator/configfiles/users.json",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/KafkaEventGenerator/configfiles/wagers.json",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/future-data-driven/2021/analyze-billions-adx/code/eventgenerator/KafkaEventGenerator/WagerGenerator.cs",
+				"/W/OneDrive/research/adx/eventgenerator/KafkaEventGenerator/WagerGenerator.cs",
+				"/W/OneDrive/Derivco/dev/tournaments/eventgenerator/python/runGamePlayKafka.py",
+				"/W/OneDrive/Derivco/dev/tournaments/eventgenerator/KafkaEventGenerator/datafiles/products.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/data/product-50-vscode.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/product-mal-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-sql-single.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/create-topics-cloud.cmd",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/delete-topics.cmd",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/test-cdc/01-create-db-objects-cdc.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/data/product-50.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/Casino/objects/06.1-insert-test-data-mal.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/Casino/objects/06.2-insert-test-data-mit.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/objects/04-create-tables.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-cloud.yml",
+				"/W/OneDrive/research/kafka/eventgenerator/schema/KafkaEventGenerator/UserProductGenerator.cs",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/data/operator.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-cloud.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-03-interesting-stuff---week-26-2022.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-10-interesting-stuff---week-27-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/connect/connector-config.json",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/currency-mal-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/basic-sql.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/confluent-cli.md",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-azure-local.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/base-data-import.sql-do-not-use",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/product-mit-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/misc-code/misc-code-1.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/operator-mit-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/source-data/product-malqf1.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/source-data/product-mitqf1.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/source-data/operator-mitqf1.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/misc-code/misc-code-2.sql",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/WagerGenerator.cs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/Program.cs",
+				"/C/Users/niels/AppData/Roaming/NuGet/nuget.config",
+				"/C/Users/niels/AppData/Roaming/NuGet/nuget.config-old",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/KafkaEventGenerator.csproj",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund2.com/_code/kafka-connect-debezium-setup/kafka/docker/dockerfile/Dockerfile-wget",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund2.com/_code/kafka-connect-debezium-setup/kafka/docker/dockerfile/Dockerfile",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/Dockerfile/Dockerfile-jdbs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund2.com/_code/kafka-connect-debezium-setup/kafka/docker/dockerfile/Dockerfile-hub",
+				"/W/OneDrive/research/kafka/debezium/docker/docker-compose-6.2-sqlconn.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/operator-schema.json",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/configfiles/users.json",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/UserProductGenerator.cs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/configfiles/wagers.json",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/UserProductConfig.cs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/KafkaPublisher.cs",
+				"/W/OneDrive/research/kafka/debezium/docker/docker-compose-6.2-orig.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-2-schema-reg.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/schemas.txt",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-kafka.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-2.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/kafka-config",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/operator-base-currency-map-mit-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/operator-mal-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/objects/01-create-dbs.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/test-cdc/01-sink-create-db-objects-cdc.sql",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-03-interesting-stuff---week-26-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-26-interesting-stuff---week-25-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_hugotemplates/roundup.yaml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-cdc-test.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/sql-sink-logs.txt",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/docker/docker-compose.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/docker/Dockerfile-copy",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-test-cdc-sink.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/docker/docker-compose-on-prem.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/docker/docker-compose.debug.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/create-topics.cmd",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund2.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-wget.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/Dockerfile/Dockerfile",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-connect.yml",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-wget.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/scratchpad/transforms.txt",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-sql.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-01-14-how-to-stream-data-to-event-hubs-from-databases-using-kafka-connect--debezium-in-docker---ii.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/dbz-eventhub-2/debezium/config.json",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-nb.yml",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-local-wget.yml",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/dockerfile/Dockerfile-wget",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-local-hub.yml",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-hub.yml",
+				"/W/OneDrive/Setup/essentials/set-registry-values.bat",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2020/set-data-free/code/debezium/config/connector-config.json",
+				"/W/OneDrive/research/kafka/debezium/code/db-stuff/cdc/enable-disable-cdc.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/README.md",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/objects/06-enable-disable-cdc.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/scratchpad/README.md",
+				"/W/OneDrive/Derivco/dev/tournaments/scratchpad/useful-links.md",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/objects/04-create-tables.sql",
+				"/W/OneDrive/research/adx/free-cluster.txt",
+				"/C/Users/niels/AppData/Local/Temp/MicrosoftEdgeDownloads/de5938ed-9c86-447a-b55d-8c8f9dc33350/BasicKQLQueries.kql",
+				"/W/OneDrive/Derivco/dev/tournaments/cdc-debezium/connector-configs/Derivco-Tournaments.postman_collection.json",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/README.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-26-interesting-stuff---week-25-2022.md",
+				"/C/temp/context-menus.reg",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-19-interesting-stuff---week-24-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/static/images/posts/git-unsafe-repo-1.png",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-25-solution-to-git-unsafe-repository-somerepo-is-owned-by-someone-else.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-25-solution-to-git-unsafe-repository-somerepo-is-owned-by-someone-else.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_drafts/solution-to-git-unsafe-repository-somerepo-is-owned-by-someone-else.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/_drafts/solution-to-git-unsafe-repository-somerepo-is-owned-by-someone-else.md",
+				"/W/OneDrive/Derivco/dev/tournaments/eventgenerator/gameplay.py",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2022/sessions/ksqldb/code/docker/docker-compose-sql.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2022/sessions/ksqldb/code/docker/docker-compose.yml",
+				"/W/OneDrive/testcode/vscode/netcore/netcore5/test1/.vscode/tasks.json",
+				"/W/OneDrive/testcode/vscode/netcore/netcore6/test1/Program.cs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-14-sql-server-denali-ctp-1-sux.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-13-beginners-fsharp-resources.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-12-more-t-sql-error-functionality-in-denali-sql-11.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-10-new-t-sql-features-in-sql-11-denali-error-handling.md"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"43311",
+					"41796",
+					"malqf1"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 49.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1517.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"pr",
+						"printf"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
+					"settings":
+					{
+						"buffer_size": 5172,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/W/OneDrive/Setup/setup-win11-dev.config",
+					"settings":
+					{
+						"buffer_size": 850,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"js",
+						"Pretty JSON: Format and Sort JSON"
+					],
+					[
+						"com",
+						"Compare with..."
+					],
+					[
+						"json",
+						"Pretty JSON: Format (Pretty Print) JSON"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"",
+						"Hugofy : New Post"
+					],
+					[
+						"hug",
+						"Hugofy : New Post"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"mark",
+						"MarkdownLivePreview: Edit Current File"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 185.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/niels/.gitconfig",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/create-test-streams-tables",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/movies-test",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/tombstone-test.txt",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/collect-list.txt",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_site/atom.xml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-10-interesting-stuff---week-27-2022.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-17-interesting-stuff---week-28-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_scratchpad/atom.xml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2022/sessions/ksqldb/code/sql/01-setup.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/docker/docker-compose-local-azure-only.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/KafkaEventGenerator/UserProductConfig.cs",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/KafkaEventGenerator/configfiles/users.json",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/KafkaEventGenerator/configfiles/wagers.json",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/future-data-driven/2021/analyze-billions-adx/code/eventgenerator/KafkaEventGenerator/WagerGenerator.cs",
+				"/W/OneDrive/research/adx/eventgenerator/KafkaEventGenerator/WagerGenerator.cs",
+				"/W/OneDrive/Derivco/dev/tournaments/eventgenerator/python/runGamePlayKafka.py",
+				"/W/OneDrive/Derivco/dev/tournaments/eventgenerator/KafkaEventGenerator/datafiles/products.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/data/product-50-vscode.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/product-mal-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-sql-single.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/create-topics-cloud.cmd",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/delete-topics.cmd",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/test-cdc/01-create-db-objects-cdc.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/data/product-50.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/Casino/objects/06.1-insert-test-data-mal.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/Casino/objects/06.2-insert-test-data-mit.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/objects/04-create-tables.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-cloud.yml",
+				"/W/OneDrive/research/kafka/eventgenerator/schema/KafkaEventGenerator/UserProductGenerator.cs",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/data/operator.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-cloud.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-03-interesting-stuff---week-26-2022.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-10-interesting-stuff---week-27-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/connect/connector-config.json",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/currency-mal-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/basic-sql.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/confluent-cli.md",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-azure-local.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/base-data-import.sql-do-not-use",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/product-mit-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/misc-code/misc-code-1.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/operator-mit-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/source-data/product-malqf1.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/source-data/product-mitqf1.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/source-data/operator-mitqf1.csv",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/misc-code/misc-code-2.sql",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/WagerGenerator.cs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/Program.cs",
+				"/C/Users/niels/AppData/Roaming/NuGet/nuget.config",
+				"/C/Users/niels/AppData/Roaming/NuGet/nuget.config-old",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/KafkaEventGenerator.csproj",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund2.com/_code/kafka-connect-debezium-setup/kafka/docker/dockerfile/Dockerfile-wget",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund2.com/_code/kafka-connect-debezium-setup/kafka/docker/dockerfile/Dockerfile",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/Dockerfile/Dockerfile-jdbs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund2.com/_code/kafka-connect-debezium-setup/kafka/docker/dockerfile/Dockerfile-hub",
+				"/W/OneDrive/research/kafka/debezium/docker/docker-compose-6.2-sqlconn.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/operator-schema.json",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/configfiles/users.json",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/UserProductGenerator.cs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/configfiles/wagers.json",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/UserProductConfig.cs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/Data-Platform-Geeks/2021/data-platform-summit/sessions/kafka-adx/code/eventgenerator/KafkaEventGenerator/KafkaPublisher.cs",
+				"/W/OneDrive/research/kafka/debezium/docker/docker-compose-6.2-orig.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-2-schema-reg.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/schemas.txt",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-kafka.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-2.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/kafka-config",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/operator-base-currency-map-mit-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/data/insert-scripts/operator-mal-insert.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/azuresql/objects/01-create-dbs.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/test-cdc/01-sink-create-db-objects-cdc.sql",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-07-03-interesting-stuff---week-26-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-26-interesting-stuff---week-25-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_hugotemplates/roundup.yaml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-cdc-test.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/sql-sink-logs.txt",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/docker/docker-compose.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/docker/Dockerfile-copy",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-test-cdc-sink.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/docker/docker-compose-on-prem.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/kusto-connect-config/docker/docker-compose.debug.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/kafka/create-topics.cmd",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund2.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-wget.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/Dockerfile/Dockerfile",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-connect.yml",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-wget.yml",
+				"/W/OneDrive/Derivco/dev/tournaments/scratchpad/transforms.txt",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-sql.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-01-14-how-to-stream-data-to-event-hubs-from-databases-using-kafka-connect--debezium-in-docker---ii.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_code/dbz-eventhub-2/debezium/config.json",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-nb.yml",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-local-wget.yml",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/dockerfile/Dockerfile-wget",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-local-hub.yml",
+				"/W/OneDrive/nielsberglund.com/_code/kafka-connect-debezium-setup/kafka/docker/docker-compose-hub.yml",
+				"/W/OneDrive/Setup/essentials/set-registry-values.bat",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2020/set-data-free/code/debezium/config/connector-config.json",
+				"/W/OneDrive/research/kafka/debezium/code/db-stuff/cdc/enable-disable-cdc.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/README.md",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/objects/06-enable-disable-cdc.sql",
+				"/W/OneDrive/Derivco/dev/tournaments/scratchpad/README.md",
+				"/W/OneDrive/Derivco/dev/tournaments/scratchpad/useful-links.md",
+				"/W/OneDrive/Derivco/dev/tournaments/sql/sql-server/objects/04-create-tables.sql",
+				"/W/OneDrive/research/adx/free-cluster.txt",
+				"/C/Users/niels/AppData/Local/Temp/MicrosoftEdgeDownloads/de5938ed-9c86-447a-b55d-8c8f9dc33350/BasicKQLQueries.kql",
+				"/W/OneDrive/Derivco/dev/tournaments/cdc-debezium/connector-configs/Derivco-Tournaments.postman_collection.json",
+				"/W/OneDrive/Derivco/dev/tournaments/tournaments/README.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-26-interesting-stuff---week-25-2022.md",
+				"/C/temp/context-menus.reg",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-19-interesting-stuff---week-24-2022.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/static/images/posts/git-unsafe-repo-1.png",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-25-solution-to-git-unsafe-repository-somerepo-is-owned-by-someone-else.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2022-06-25-solution-to-git-unsafe-repository-somerepo-is-owned-by-someone-else.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/_drafts/solution-to-git-unsafe-repository-somerepo-is-owned-by-someone-else.md",
+				"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/_drafts/solution-to-git-unsafe-repository-somerepo-is-owned-by-someone-else.md",
+				"/W/OneDrive/Derivco/dev/tournaments/eventgenerator/gameplay.py",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2022/sessions/ksqldb/code/docker/docker-compose-sql.yml",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2022/sessions/ksqldb/code/docker/docker-compose.yml",
+				"/W/OneDrive/testcode/vscode/netcore/netcore5/test1/.vscode/tasks.json",
+				"/W/OneDrive/testcode/vscode/netcore/netcore6/test1/Program.cs",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-14-sql-server-denali-ctp-1-sux.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-13-beginners-fsharp-resources.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-12-more-t-sql-error-functionality-in-denali-sql-11.md",
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-10-new-t-sql-features-in-sql-11-denali-error-handling.md"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"43311",
+					"41796",
+					"malqf1"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5172,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1029,
+										1029
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/YAML/YAML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/W/OneDrive/Setup/setup-win11-dev.config",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 850,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/XML/XML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 49.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-1,-1,-1,-1,1232,2648,385,4181,4932930f905d8a499e970510064fb06c",
+			"project": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 38,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

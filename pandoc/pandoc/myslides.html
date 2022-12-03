@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>My Test</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="./reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">My Test</h1>
+</section>
+
+<section id="description" class="slide level2">
+<h2>Description</h2>
+<p>This is a <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> template to generate <a href="http://lab.hakim.se/reveal-js/#/">reveal.js</a> slideshows.</p>
+</section>
+<section id="definitions" class="slide level2">
+<h2>Definitions</h2>
+<p><strong>Pandoc</strong> is a “universal markup converter” you can run from the command line to convert a simple, plain text file into a beautifully formatted PDF, .docx, HTML, <a href="http://www.latex-project.org/">LaTeX</a>, slideshows… the list goes on.</p>
+<p><strong>reveal.js</strong> is a CSS and JavaScript framework for creating beautiful presentations in HTML5, designed by <a href="http://hakim.se/">Hakim El Hattab</a>.</p>
+</section>
+<section id="workflow" class="slide level2">
+<h2>Workflow</h2>
+<p>In order to begin using the template below, you must…</p>
+<ul>
+<li>Install the following in the same directory:
+<ul>
+<li>slides.md</li>
+<li>template-revealjs.html</li>
+<li>css, js, lib folders downloaded <a href="https://github.com/hakimel/reveal.js/">here</a></li>
+<li>any images you may want to include (i.e. aeschylus.jpg as listed in slides.md below)</li>
+</ul></li>
+<li>Navigate to your directory from the command line and run the following:
+<ul>
+<li><code>pandoc -t html5 -s --template=template.revealjs.html --standalone --section-divs --variable theme=&quot;sky&quot; -o slides.html slides.md</code></li>
+<li>the theme (“sky” above) can be changed to any of the options <a href="lab.hakim.se/reveal-js/#/themes">listed here</a></li>
+<li>transitions can be modified by adding <code>transition=&quot;zoom&quot;</code> or any of the other optoins <a href="http://lab.hakim.se/reveal-js/#/transitions">listed here</a></li>
+</ul></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="./reveal.js/lib/js/head.min.js"></script>
+  <script src="./reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: './reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: './reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
