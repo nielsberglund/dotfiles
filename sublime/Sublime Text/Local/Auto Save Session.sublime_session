@@ -1,17 +1,28 @@
 {
+	"file_history":
+	[
+		"/W/OneDrive/Setup/setup-win11-dev.config",
+		"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
+		"/W/OneDrive/backup/dobackup.cmd"
+	],
 	"folder_history":
 	[
 		"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/_scratchpad"
 	],
-	"last_version": 4126,
-	"last_window_id": 42,
+	"last_version": 4143,
+	"last_window_id": 43,
 	"log_indexing": false,
-	"next_update_check": 1658510183,
+	"next_update_check": 1670213987,
 	"settings":
 	{
 		"new_window_full_screen": false,
 		"new_window_height": 788.0,
 		"new_window_maximized": false,
+		"new_window_position":
+		[
+			0.0,
+			-866.0
+		],
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -95,6 +106,9 @@
 			},
 			"file_history":
 			[
+				"/W/OneDrive/Setup/setup-win11-dev.config",
+				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
+				"/W/OneDrive/backup/dobackup.cmd",
 				"/C/Users/niels/.gitconfig",
 				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/create-test-streams-tables",
 				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/movies-test",
@@ -109,7 +123,6 @@
 				"/W/OneDrive/Derivco/dev/tournaments/tournaments/KafkaEventGenerator/UserProductConfig.cs",
 				"/W/OneDrive/Derivco/dev/tournaments/tournaments/KafkaEventGenerator/configfiles/users.json",
 				"/W/OneDrive/Derivco/dev/tournaments/tournaments/KafkaEventGenerator/configfiles/wagers.json",
-				"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
 				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/future-data-driven/2021/analyze-billions-adx/code/eventgenerator/KafkaEventGenerator/WagerGenerator.cs",
 				"/W/OneDrive/research/adx/eventgenerator/KafkaEventGenerator/WagerGenerator.cs",
 				"/W/OneDrive/Derivco/dev/tournaments/eventgenerator/python/runGamePlayKafka.py",
@@ -220,13 +233,11 @@
 				"/W/OneDrive/testcode/vscode/netcore/netcore5/test1/.vscode/tasks.json",
 				"/W/OneDrive/testcode/vscode/netcore/netcore6/test1/Program.cs",
 				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-14-sql-server-denali-ctp-1-sux.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-13-beginners-fsharp-resources.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-12-more-t-sql-error-functionality-in-denali-sql-11.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-10-new-t-sql-features-in-sql-11-denali-error-handling.md"
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-13-beginners-fsharp-resources.md"
 			],
 			"find":
 			{
-				"height": 29.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -261,7 +272,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 26.0
 			},
 			"input":
 			{
@@ -275,7 +286,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 54.0
+				"height": 48.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -315,7 +326,7 @@
 			{
 			}
 		},
-		"new_window_width": 1517.0
+		"new_window_width": 1512.0
 	},
 	"windows":
 	[
@@ -333,28 +344,160 @@
 			"buffers":
 			[
 				{
-					"file": "/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
+					"file": "/Users/niels/repos/scratchpad/brew-install.sh",
 					"settings":
 					{
-						"buffer_size": 5172,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/W/OneDrive/Setup/setup-win11-dev.config",
-					"settings":
-					{
-						"buffer_size": 850,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/W/OneDrive/backup/dobackup.cmd",
-					"settings":
-					{
-						"buffer_size": 982,
-						"line_ending": "Windows"
-					}
+						"buffer_size": 949,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n\n\n\n"
+							},
+							"BgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAASgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							15,
+							1,
+							"paste",
+							null,
+							"AQAAAAkAAAAAAAAAEQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAABEAAAAAAAAAEgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"paste",
+							null,
+							"AQAAACIAAAAAAAAAKgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAACoAAAAAAAAAKwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKgAAAAAAAAAqAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"paste",
+							null,
+							"AQAAADkAAAAAAAAAQQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOQAAAAAAAAA5AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							24,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAEEAAAAAAAAAQgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"paste",
+							null,
+							"AQAAAFAAAAAAAAAAWAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFgAAAAAAAAAWQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAG4AAAAAAAAAbwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbgAAAAAAAABuAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"paste",
+							null,
+							"AQAAAG8AAAAAAAAAkwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbwAAAAAAAABvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n\n\n\n\n"
+							},
+							"BwAAAJcDAAAAAAAAmAMAAAAAAAAAAAAAmAMAAAAAAACZAwAAAAAAAAAAAACZAwAAAAAAAJoDAAAAAAAAAAAAAJoDAAAAAAAAmwMAAAAAAAAAAAAAmwMAAAAAAACcAwAAAAAAAAAAAACcAwAAAAAAAJ0DAAAAAAAAAAAAAJ0DAAAAAAAAngMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlwMAAAAAAACXAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							4,
+							"left_delete",
+							null,
+							"BAAAAJgAAAAAAAAAmAAAAAAAAAABAAAACpcAAAAAAAAAlwAAAAAAAAABAAAACpYAAAAAAAAAlgAAAAAAAAABAAAACpUAAAAAAAAAlQAAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAmQAAAAAAAACZAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							50,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAKoCAAAAAAAAqwIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAqgIAAAAAAACqAgAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							51,
+							1,
+							"paste",
+							null,
+							"AQAAAKsCAAAAAAAAxQIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAqwIAAAAAAACrAgAAAAAAAAAAAAAAAPC/"
+						]
+					]
 				}
 			],
 			"build_system": "",
@@ -560,7 +703,7 @@
 			],
 			"find":
 			{
-				"height": 29.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -574,9 +717,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"43311",
-					"41796",
-					"malqf1"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -600,89 +740,25 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5172,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1029,
-										1029
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/YAML/YAML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/W/OneDrive/Setup/setup-win11-dev.config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 850,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/XML/XML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/W/OneDrive/backup/dobackup.cmd",
+							"file": "/Users/niels/repos/scratchpad/brew-install.sh",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 982,
+								"buffer_size": 949,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										147,
+										111
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Batch File/Batch File.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -697,7 +773,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 26.0
 			},
 			"input":
 			{
@@ -731,11 +807,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,-1,-1,-1,-1,1232,2648,385,4181,1680ede21045ef48af51a38e9dc3c8d5",
+			"position": "YnBsaXN0MDDUAQIDBAUGBx5YJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctsICQoLDA0ODxAREhMUFRYXGBcaGxwdXxAZX05TV2luZG93UmVzaXplR2VuZXJhdGlvbl8QEF9OU1dpbmRvd0xheW91dHNbTlNDbGFzc05hbWVbTlNTdHlsZU1hc2tXTlNJc0tleV5OU1dpbmRvd051bWJlclhOU0lzTWFpbl1OU1dpbmRvd0ZyYW1lXxAQTlNGaXJzdFJlc3BvbmRlcldOU1RpdGxlXxATTlNXaW5kb3dXb3Jrc3BhY2VJRBAAgAWAAxAPCREFiQmAAYAAgAKABK8QDx8gISIjJC0zNDU7QkNER1UkbnVsbF8QHjIwOCAxMjYgMTUxMiA4MTYgMCAwIDE1MTIgOTQ0IF8QD2JyZXctaW5zdGFsbC5zaFhQWFdpbmRvd1DTJSYnKCosV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhKYAGoSuACoAO0y4vJzAxMl8QGE5TU2NyZWVuTGF5b3V0VVVJRFN0cmluZ18QEk5TU2NyZWVuTGF5b3V0U2l6ZYAHgAiACV8QJDM3RDg4MzJBLTJENjYtMDJDQS1COUY3LThGMzBBMzAxQjIzMFt7MTUxMiwgOTgyfdI2Nzg5WiRjbGFzc25hbWVYJGNsYXNzZXNeTlNTY3JlZW5MYXlvdXSiODpYTlNPYmplY3TUPD0nPj8TQEFfEB9OU1dpbmRvd0xheW91dFNjcmVlbkxheW91dEZyYW1lXxAeTlNXaW5kb3dMYXlvdXRSZXNpemVHZW5lcmF0aW9uXxAZTlNXaW5kb3dMYXlvdXRXaW5kb3dGcmFtZYAMgA2AC18QGXt7MjA4LCAxMjZ9LCB7MTUxMiwgODE2fX1fEBV7ezAsIDB9LCB7MTUxMiwgOTQ0fX3SNjdFRl5OU1dpbmRvd0xheW91dKJFOtI2N0hJXE5TRGljdGlvbmFyeaJIOgAIABEAGgAkACkAMgA3AEkAYAB8AI8AmwCnAK8AvgDHANUA6ADwAQYBCAEKAQwBDgEPARIBEwEVARcBGQEbAS0BMwFUAWYBbwFwAXcBfwGKAZEBkwGVAZcBmQGbAaIBvQHSAdQB1gHYAf8CCwIQAhsCJAIzAjYCPwJIAmoCiwKnAqkCqwKtAskC4QLmAvUC+AL9AwoAAAAAAAACAQAAAAAAAABKAAAAAAAAAAAAAAAAAAADDQ",
 			"project": "",
 			"replace":
 			{
-				"height": 54.0
+				"height": 48.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -778,7 +854,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 38,
+			"window_id": 43,
 			"workspace_name": ""
 		}
 	],
