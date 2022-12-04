@@ -1,6 +1,7 @@
 {
 	"file_history":
 	[
+		"/Users/niels/repos/dotfiles/scratchpad/bootstrap.sh",
 		"/W/OneDrive/Setup/setup-win11-dev.config",
 		"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
 		"/W/OneDrive/backup/dobackup.cmd"
@@ -344,7 +345,7 @@
 			"buffers":
 			[
 				{
-					"file": "/Users/niels/repos/scratchpad/brew-install.sh",
+					"file": "/Users/niels/repos/dotfiles/scratchpad/brew-install.sh",
 					"settings":
 					{
 						"buffer_size": 949,
@@ -572,6 +573,7 @@
 			},
 			"file_history":
 			[
+				"/Users/niels/repos/dotfiles/scratchpad/bootstrap.sh",
 				"/C/Users/niels/.gitconfig",
 				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/create-test-streams-tables",
 				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/movies-test",
@@ -698,8 +700,7 @@
 				"/W/OneDrive/testcode/vscode/netcore/netcore6/test1/Program.cs",
 				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-14-sql-server-denali-ctp-1-sux.md",
 				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-13-beginners-fsharp-resources.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-12-more-t-sql-error-functionality-in-denali-sql-11.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-10-new-t-sql-features-in-sql-11-denali-error-handling.md"
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-12-more-t-sql-error-functionality-in-denali-sql-11.md"
 			],
 			"find":
 			{
@@ -740,7 +741,7 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/niels/repos/scratchpad/brew-install.sh",
+							"file": "/Users/niels/repos/dotfiles/scratchpad/brew-install.sh",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
@@ -752,8 +753,8 @@
 								"selection":
 								[
 									[
-										147,
-										111
+										240,
+										240
 									]
 								],
 								"settings":
@@ -807,7 +808,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "YnBsaXN0MDDUAQIDBAUGBx5YJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctsICQoLDA0ODxAREhMUFRYXGBcaGxwdXxAZX05TV2luZG93UmVzaXplR2VuZXJhdGlvbl8QEF9OU1dpbmRvd0xheW91dHNbTlNDbGFzc05hbWVbTlNTdHlsZU1hc2tXTlNJc0tleV5OU1dpbmRvd051bWJlclhOU0lzTWFpbl1OU1dpbmRvd0ZyYW1lXxAQTlNGaXJzdFJlc3BvbmRlcldOU1RpdGxlXxATTlNXaW5kb3dXb3Jrc3BhY2VJRBAAgAWAAxAPCREFiQmAAYAAgAKABK8QDx8gISIjJC0zNDU7QkNER1UkbnVsbF8QHjIwOCAxMjYgMTUxMiA4MTYgMCAwIDE1MTIgOTQ0IF8QD2JyZXctaW5zdGFsbC5zaFhQWFdpbmRvd1DTJSYnKCosV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhKYAGoSuACoAO0y4vJzAxMl8QGE5TU2NyZWVuTGF5b3V0VVVJRFN0cmluZ18QEk5TU2NyZWVuTGF5b3V0U2l6ZYAHgAiACV8QJDM3RDg4MzJBLTJENjYtMDJDQS1COUY3LThGMzBBMzAxQjIzMFt7MTUxMiwgOTgyfdI2Nzg5WiRjbGFzc25hbWVYJGNsYXNzZXNeTlNTY3JlZW5MYXlvdXSiODpYTlNPYmplY3TUPD0nPj8TQEFfEB9OU1dpbmRvd0xheW91dFNjcmVlbkxheW91dEZyYW1lXxAeTlNXaW5kb3dMYXlvdXRSZXNpemVHZW5lcmF0aW9uXxAZTlNXaW5kb3dMYXlvdXRXaW5kb3dGcmFtZYAMgA2AC18QGXt7MjA4LCAxMjZ9LCB7MTUxMiwgODE2fX1fEBV7ezAsIDB9LCB7MTUxMiwgOTQ0fX3SNjdFRl5OU1dpbmRvd0xheW91dKJFOtI2N0hJXE5TRGljdGlvbmFyeaJIOgAIABEAGgAkACkAMgA3AEkAYAB8AI8AmwCnAK8AvgDHANUA6ADwAQYBCAEKAQwBDgEPARIBEwEVARcBGQEbAS0BMwFUAWYBbwFwAXcBfwGKAZEBkwGVAZcBmQGbAaIBvQHSAdQB1gHYAf8CCwIQAhsCJAIzAjYCPwJIAmoCiwKnAqkCqwKtAskC4QLmAvUC+AL9AwoAAAAAAAACAQAAAAAAAABKAAAAAAAAAAAAAAAAAAADDQ",
+			"position": "YnBsaXN0MDDUAQIDBAUGBx5YJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctsICQoLDA0ODxAREhMUFRYXGBcaGxwdXxAZX05TV2luZG93UmVzaXplR2VuZXJhdGlvbl8QEF9OU1dpbmRvd0xheW91dHNbTlNDbGFzc05hbWVbTlNTdHlsZU1hc2tXTlNJc0tleV5OU1dpbmRvd051bWJlclhOU0lzTWFpbl1OU1dpbmRvd0ZyYW1lXxAQTlNGaXJzdFJlc3BvbmRlcldOU1RpdGxlXxATTlNXaW5kb3dXb3Jrc3BhY2VJRBAAgAWAAxAPCREFiQmAAYAAgAKABK8QDx8gISIjJC0zNDU7QkNER1UkbnVsbF8QHTIxMiA2MyAxNTEyIDgxNiAwIDAgMTUxMiA5NDQgXxAPYnJldy1pbnN0YWxsLnNoWFBYV2luZG93UNMlJicoKixXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6EpgAahK4AKgA7TLi8nMDEyXxAYTlNTY3JlZW5MYXlvdXRVVUlEU3RyaW5nXxASTlNTY3JlZW5MYXlvdXRTaXplgAeACIAJXxAkMzdEODgzMkEtMkQ2Ni0wMkNBLUI5RjctOEYzMEEzMDFCMjMwW3sxNTEyLCA5ODJ90jY3ODlaJGNsYXNzbmFtZVgkY2xhc3Nlc15OU1NjcmVlbkxheW91dKI4OlhOU09iamVjdNQ8PSc+PxNAQV8QH05TV2luZG93TGF5b3V0U2NyZWVuTGF5b3V0RnJhbWVfEB5OU1dpbmRvd0xheW91dFJlc2l6ZUdlbmVyYXRpb25fEBlOU1dpbmRvd0xheW91dFdpbmRvd0ZyYW1lgAyADYALXxAYe3syMTIsIDYzfSwgezE1MTIsIDgxNn19XxAVe3swLCAwfSwgezE1MTIsIDk0NH190jY3RUZeTlNXaW5kb3dMYXlvdXSiRTrSNjdISVxOU0RpY3Rpb25hcnmiSDoACAARABoAJAApADIANwBJAGAAfACPAJsApwCvAL4AxwDVAOgA8AEGAQgBCgEMAQ4BDwESARMBFQEXARkBGwEtATMBUwFlAW4BbwF2AX4BiQGQAZIBlAGWAZgBmgGhAbwB0QHTAdUB1wH+AgoCDwIaAiMCMgI1Aj4CRwJpAooCpgKoAqoCrALHAt8C5ALzAvYC+wMIAAAAAAAAAgEAAAAAAAAASgAAAAAAAAAAAAAAAAAAAws",
 			"project": "",
 			"replace":
 			{
