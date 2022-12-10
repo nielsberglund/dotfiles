@@ -1,17 +1,35 @@
 {
+	"file_history":
+	[
+		"/Users/niels/repos/dotfiles/symlinks.txt",
+		"/Users/niels/repos/dotfiles/scratchpad/office-plist.txt",
+		"/Users/niels/repos/dotfiles/bootstrap",
+		"/Users/niels/repos/dotfiles/scratchpad/brew-install.sh",
+		"/Users/niels/repos/dotfiles/scratchpad/misc-code.txt",
+		"/Users/niels/repos/dotfiles/Brewfile",
+		"/Users/niels/repos/dotfiles/scratchpad/bootstrap.sh",
+		"/W/OneDrive/Setup/setup-win11-dev.config",
+		"/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
+		"/W/OneDrive/backup/dobackup.cmd"
+	],
 	"folder_history":
 	[
 		"/W/nielsb-work/GitHub-Repos/gh-nielsberglund/nielsberglund.com/_scratchpad"
 	],
-	"last_version": 4126,
-	"last_window_id": 42,
+	"last_version": 4143,
+	"last_window_id": 48,
 	"log_indexing": false,
-	"next_update_check": 1658510183,
+	"next_update_check": 1670732387,
 	"settings":
 	{
 		"new_window_full_screen": false,
 		"new_window_height": 788.0,
 		"new_window_maximized": false,
+		"new_window_position":
+		[
+			0.0,
+			-788.0
+		],
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -95,6 +113,9 @@
 			},
 			"file_history":
 			[
+				"/Users/niels/repos/dotfiles/scratchpad/brew-install.sh",
+				"/Users/niels/repos/dotfiles/scratchpad/misc-code.txt",
+				"/Users/niels/repos/dotfiles/scratchpad/bootstrap.sh",
 				"/C/Users/niels/.gitconfig",
 				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/create-test-streams-tables",
 				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/movies-test",
@@ -219,14 +240,11 @@
 				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2022/sessions/ksqldb/code/docker/docker-compose.yml",
 				"/W/OneDrive/testcode/vscode/netcore/netcore5/test1/.vscode/tasks.json",
 				"/W/OneDrive/testcode/vscode/netcore/netcore6/test1/Program.cs",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-14-sql-server-denali-ctp-1-sux.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-13-beginners-fsharp-resources.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-12-more-t-sql-error-functionality-in-denali-sql-11.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-10-new-t-sql-features-in-sql-11-denali-error-handling.md"
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-14-sql-server-denali-ctp-1-sux.md"
 			],
 			"find":
 			{
-				"height": 29.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -240,9 +258,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"43311",
-					"41796",
-					"malqf1"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -261,7 +276,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 26.0
 			},
 			"input":
 			{
@@ -275,7 +290,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 54.0
+				"height": 48.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -315,7 +330,7 @@
 			{
 			}
 		},
-		"new_window_width": 1517.0
+		"new_window_width": 1512.0
 	},
 	"windows":
 	[
@@ -332,22 +347,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
-					"settings":
-					{
-						"buffer_size": 5172,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/W/OneDrive/Setup/setup-win11-dev.config",
-					"settings":
-					{
-						"buffer_size": 850,
-						"line_ending": "Windows"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -421,6 +420,9 @@
 			},
 			"file_history":
 			[
+				"/Users/niels/repos/dotfiles/scratchpad/brew-install.sh",
+				"/Users/niels/repos/dotfiles/scratchpad/misc-code.txt",
+				"/Users/niels/repos/dotfiles/scratchpad/bootstrap.sh",
 				"/C/Users/niels/.gitconfig",
 				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/create-test-streams-tables",
 				"/W/OneDrive/Derivco/dev/tournaments/kafka/ksql/movies-test",
@@ -545,14 +547,11 @@
 				"/W/nielsb-work/Github-Repos/gh-nielsberglund/presentations/SQL Bits/2022/sessions/ksqldb/code/docker/docker-compose.yml",
 				"/W/OneDrive/testcode/vscode/netcore/netcore5/test1/.vscode/tasks.json",
 				"/W/OneDrive/testcode/vscode/netcore/netcore6/test1/Program.cs",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-14-sql-server-denali-ctp-1-sux.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-13-beginners-fsharp-resources.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-12-more-t-sql-error-functionality-in-denali-sql-11.md",
-				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-10-new-t-sql-features-in-sql-11-denali-error-handling.md"
+				"/W/nielsb-work/Github-Repos/gh-nielsberglund/nielsberglund.com/content/posts/2010-11-14-sql-server-denali-ctp-1-sux.md"
 			],
 			"find":
 			{
-				"height": 29.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -566,9 +565,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"43311",
-					"41796",
-					"malqf1"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -590,75 +586,12 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/W/OneDrive/Derivco/dev/tournaments/docker/docker-compose-local-azure-only.yml",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5172,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1029,
-										1029
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/YAML/YAML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/W/OneDrive/Setup/setup-win11-dev.config",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 850,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/XML/XML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 26.0
 			},
 			"input":
 			{
@@ -692,11 +625,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,-1,-1,-1,-1,1232,2648,385,4181,4932930f905d8a499e970510064fb06c",
+			"position": "YnBsaXN0MDDUAQIDBAUGBx5YJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctsICQoLDA0ODxAREhMUFRYXGBcaGxwdXxAZX05TV2luZG93UmVzaXplR2VuZXJhdGlvbl8QEF9OU1dpbmRvd0xheW91dHNbTlNDbGFzc05hbWVbTlNTdHlsZU1hc2tXTlNJc0tleV5OU1dpbmRvd051bWJlclhOU0lzTWFpbl1OU1dpbmRvd0ZyYW1lXxAQTlNGaXJzdFJlc3BvbmRlcldOU1RpdGxlXxATTlNXaW5kb3dXb3Jrc3BhY2VJRBAAgAWAAxAPCREIRQmAAYAAgAKABK8QDx8gISIjJC0zNDU7QkNER1UkbnVsbF8QGjAgMCAxNTEyIDgxNiAwIDAgMTUxMiA5NDQgWHVudGl0bGVkWFBYV2luZG93UNMlJicoKixXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6EpgAahK4AKgA7TLi8nMDEyXxAYTlNTY3JlZW5MYXlvdXRVVUlEU3RyaW5nXxASTlNTY3JlZW5MYXlvdXRTaXplgAeACIAJXxAkMzdEODgzMkEtMkQ2Ni0wMkNBLUI5RjctOEYzMEEzMDFCMjMwW3sxNTEyLCA5ODJ90jY3ODlaJGNsYXNzbmFtZVgkY2xhc3Nlc15OU1NjcmVlbkxheW91dKI4OlhOU09iamVjdNQ8PSc+PxNAQV8QH05TV2luZG93TGF5b3V0U2NyZWVuTGF5b3V0RnJhbWVfEB5OU1dpbmRvd0xheW91dFJlc2l6ZUdlbmVyYXRpb25fEBlOU1dpbmRvd0xheW91dFdpbmRvd0ZyYW1lgAyADYALXxAVe3swLCAwfSwgezE1MTIsIDgxNn19XxAVe3swLCAwfSwgezE1MTIsIDk0NH190jY3RUZeTlNXaW5kb3dMYXlvdXSiRTrSNjdISVxOU0RpY3Rpb25hcnmiSDoACAARABoAJAApADIANwBJAGAAfACPAJsApwCvAL4AxwDVAOgA8AEGAQgBCgEMAQ4BDwESARMBFQEXARkBGwEtATMBUAFZAWIBYwFqAXIBfQGEAYYBiAGKAYwBjgGVAbABxQHHAckBywHyAf4CAwIOAhcCJgIpAjICOwJdAn4CmgKcAp4CoAK4AtAC1QLkAucC7AL5AAAAAAAAAgEAAAAAAAAASgAAAAAAAAAAAAAAAAAAAvw",
 			"project": "",
 			"replace":
 			{
-				"height": 54.0
+				"height": 48.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -739,7 +672,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 38,
+			"window_id": 48,
 			"workspace_name": ""
 		}
 	],

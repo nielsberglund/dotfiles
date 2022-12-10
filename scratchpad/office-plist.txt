@@ -1,0 +1,18 @@
+/Users/niels/Library/Containers/com.microsoft.Word/Data/Library/Preferences/com.microsoft.Word.plist
+
+/Users/niels/Library/Containers/com.microsoft.Excel/Data/Library/Preferences/com.microsoft.Excel.plist
+
+/Users/niels/Library/Containers/com.microsoft.Powerpoint/Data/Library/Preferences/com.microsoft.Powerpoint.plist
+
+/Users/niels/Library/Containers/com.microsoft.onenote.mac/Data/Library/Preferences/com.microsoft.onenote.mac.plist
+
+
+
+
+cp /Users/niels/Library/Containers/com.microsoft.Word/Data/Library/Preferences/com.microsoft.Word.plist /Users/niels/repos/dotfiles/word
+ ~ 
+❯ cp /Users/niels/Library/Containers/com.microsoft.Excel/Data/Library/Preferences/com.microsoft.Excel.plist /Users/niels/repos/dotfiles/excel
+ ~ 
+❯ cp /Users/niels/Library/Containers/com.microsoft.PowerPoint/Data/Library/Preferences/com.microsoft.PowerPoint.plist /Users/niels/repos/dotfiles/powerpoint
+ ~ 
+❯ cp /Users/niels/Library/Containers/com.microsoft.onenote.mac/Data/Library/Preferences/com.microsoft.onenote.mac.plist /Users/niels/repos/dotfiles/onenote

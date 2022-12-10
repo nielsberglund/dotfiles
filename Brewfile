@@ -27,10 +27,15 @@ cask 'visual-studio-code'
 cask 'vlc'
 
 brew 'azure-cli'
+brew 'azure-functions-core-tools@4'
 brew 'maven'
 brew 'openjdk'
 brew 'pandoc'
 brew 'powerlevel10k'
+
+mas 'Microsoft OneNote', id: 784801555
+mas 'OneDrive', id: 823766827
+mas 'ScreenBrush', id: 1233965871
 
 
 
