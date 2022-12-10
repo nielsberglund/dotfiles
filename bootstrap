@@ -49,9 +49,18 @@ install_homebrew() {
   fi
 }
 
+info "Prompting for sudo password..."
+if sudo -v; then
+    # Keep-alive: update existing `sudo` time stamp until `setup.sh` has finished
+    while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+    success "Sudo credentials updated."
+else
+    error "Failed to obtain sudo credentials."
+fi
+
 info "####### dotfiles #######"
 read -p "Press enter to start:"
-info "Bootstraping..."
+info "Bootstrapping..."
 
 install_xcode
 install_homebrew
@@ -65,6 +74,6 @@ git clone "$REPO_URL" "$REPO_PATH"
 info "Change path to $REPO_PATH"
 cd "$REPO_PATH" >/dev/null
 
-# ./install.sh
+# ./setup.sh
 
 

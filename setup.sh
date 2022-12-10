@@ -6,12 +6,8 @@ set -o pipefail
 
 . scripts/utils.sh
 . scripts/brew.sh
-. scripts/apps.sh
-. scripts/cli.sh
-. scripts/config.sh
 . scripts/osx.sh
 . scripts/fonts.sh
-. scripts/packages.sh
 . scripts/oh-my-zsh.sh
 
 cleanup() {
@@ -27,10 +23,6 @@ trap cleanup SIGINT SIGTERM ERR EXIT
 main() {
   info "Installing ..."
 
-  if [ -z "${SSH_PASSPHRASE}" ]; then
-    echo "SSH_PASSPHRASE not set"
-    exit 1
-  fi
 
   info "Homebrew Packages"
   info "################################################"
