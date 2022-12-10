@@ -1,11 +1,12 @@
-brew tap
+brew update
+
 brew tap azure/functions
 brew tap homebrew/cask
 brew tap homebrew/core
 brew tap romkatv/powerlevel10k
 brew tap isen-ng/dotnet-sdk-versions
 
-brew update
+
 
 brew install mas
 
@@ -26,6 +27,7 @@ brew install --cask grammarly
 brew install --cask alfred
 brew install --cask azure-data-studio
 brew install --cask cleanmymac
+brew install --cask alt-tab
 
 
 brew install --cask confluent-cli
