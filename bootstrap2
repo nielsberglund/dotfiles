@@ -3,7 +3,7 @@
 set -o errexit
 
 cd ~
-mkdir repos
+# mkdir repos
 
 REPO_URL=https://github.com/nielsberglund/dotfiles.git
 REPO_PATH="$HOME/repos/dotfiles"
