@@ -74,6 +74,6 @@ git clone "$REPO_URL" "$REPO_PATH"
 info "Change path to $REPO_PATH"
 cd "$REPO_PATH" >/dev/null
 
-# ./setup.sh
+./setup.sh
 
 

@@ -1,14 +1,4 @@
-#! /usr/bin/env bash
+install_brew_packages() {
 
-DIR=$(dirname "$0")
-cd "$DIR"
-
-. ./utils.sh
-
-COMMENT=\#*
-
-sudo -v
-
-info "Installing Brewfile packages..."
-brew bundle
-success "Finished installing Brewfile packages."
+  brew bundle --file=~/repos/dotfiles/Brewfile
+}

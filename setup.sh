@@ -9,6 +9,7 @@ set -o pipefail
 . scripts/osx.sh
 . scripts/fonts.sh
 . scripts/oh-my-zsh.sh
+. scripts/symlinks.sh
 
 cleanup() {
   info "Finishing..."
@@ -24,76 +25,36 @@ main() {
   info "Installing ..."
 
 
-  info "Homebrew Packages"
+  info "Installing Homebrew Packages"
   info "################################################"
   wait_input
-  install_packages
+  install_brew_packages
   success "Finished installing Homebrew packages"
 
-  info "Homebrew Fonts"
+  info "Installing Fonts"
   info "################################################"
   wait_input
   install_fonts
   success "Finished installing fonts"
 
-  # info "Oh-my-zsh"
-  # wait_input
-  # install_oh_my_zsh
-  # success "Finished installing Oh-my-zsh"
-
-  info "MacOS Apps"
+  info "Installing Oh-my-zsh"
   info "################################################"
   wait_input
-  install_macos_apps
+  install_oh_my_zsh
+  success "Finished installing Oh-my-zsh"
 
-  install_masApps
-  success "Finished installing macOS apps"
-
-  info "NeoVim"
-  info "################################################################################"
-  wait_input
-  install_neovim
-  success "Finished installing neovim"
-
-  info "PiP modules"
-  info "################################################################################"
-  wait_input
-  install_python_packages
-  success "Finished installing python packages"
-
-  info "Configuration"
+  info "Mac Configuration"
   info "################################################################################"
   wait_input
   setup_osx
   success "Finished configuring MacOS defaults. NOTE: A restart is needed"
-  code_as_default_text_editor
-  success "Finished setting up VSCode as default text editor"
-  stow_dotfiles
-
-  info "Crating development folders"
-  info "################################################################################"
-  mkdir -p ~/Development/protiumx
-
-  success "Finished stowing dotfiles"
-
-  info "SSH Key"
-  info "################################################################################"
-  setup_github_ssh
-  success "Finished setting up SSH Key"
-
-  info "NeoVim Plugins"
+  
+  info "Symlinks"
   info "################################################################################"
   wait_input
-  nvim +PlugInstall +qall
-  success "Finished installing nvim plugins"
-
-  if ! hash rustc &>/dev/null; then
-    info "Rust Setup"
-    info "################################################################################"
-    wait_input
-    rustup-init
-  fi
-
+  create_symlinks
+  success "Finished creating symlinks"
+  
   success "Done"
 
   info "System needs to restart. Restart?"
