@@ -8,44 +8,52 @@ create_symlinks() {
 
   info "OneNote plist"
   rm -f /Users/niels/Library/Containers/com.microsoft.onenote.mac/Data/Library/Preferences/com.microsoft.onenote.mac.plist
+  mkdir -p /Users/niels/Library/Containers/com.microsoft.onenote.mac/Data/Library/Preferences
   ln -s /Users/niels/repos/dotfiles/onenote/com.microsoft.onenote.mac.plist /Users/niels/Library/Containers/com.microsoft.onenote.mac/Data/Library/Preferences/com.microsoft.onenote.mac.plist
-  chflags /Users/niels/Library/Containers/com.microsoft.onenote.mac/Data/Library/Preferences/com.microsoft.onenote.mac.plist
+  chflags nouchg /Users/niels/Library/Containers/com.microsoft.onenote.mac/Data/Library/Preferences/com.microsoft.onenote.mac.plist
   success "Finished OneNote plist"
 
   info "PowerPoint plist"
   rm -f /Users/niels/Library/Containers/com.microsoft.PowerPoint/Data/Library/Preferences/com.microsoft.PowerPoint.plist
+  mkdir -p /Users/niels/Library/Containers/com.microsoft.PowerPoint/Data/Library/Preferences
   ln -s /Users/niels/repos/dotfiles/powerpoint/com.microsoft.PowerPoint.plist /Users/niels/Library/Containers/com.microsoft.PowerPoint/Data/Library/Preferences/com.microsoft.PowerPoint.plist
   chflags nouchg /Users/niels/Library/Containers/com.microsoft.PowerPoint/Data/Library/Preferences/com.microsoft.PowerPoint.plist
   success "Finished PowerPoint plist"
 
   info "Excel plist"
   rm -f /Users/niels/Library/Containers/com.microsoft.Excel/Data/Library/Preferences/com.microsoft.Excel.plist
+  mkdir -p /Users/niels/Library/Containers/com.microsoft.Excel/Data/Library/Preferences
   ln -s /Users/niels/repos/dotfiles/excel/com.microsoft.Excel.plist /Users/niels/Library/Containers/com.microsoft.Excel/Data/Library/Preferences/com.microsoft.Excel.plist
   chflags nouchg /Users/niels/Library/Containers/com.microsoft.Excel/Data/Library/Preferences/com.microsoft.Excel.plist
   success "Finished Excel plist"
 
   info "Word plist"
   rm -f /Users/niels/Library/Containers/com.microsoft.Word/Data/Library/Preferences/com.microsoft.Word.plist
+  mkdir -p /Users/niels/Library/Containers/com.microsoft.Word/Data/Library/Preferences/
   ln -s /Users/niels/repos/dotfiles/word/com.microsoft.Word.plist /Users/niels/Library/Containers/com.microsoft.Word/Data/Library/Preferences/com.microsoft.Word.plist
   chflags nouchg /Users/niels/Library/Containers/com.microsoft.Word/Data/Library/Preferences/com.microsoft.Word.plist
   success "Finished Word plist"
 
   info "Azure Data Studio settings"
   rm -f /Users/niels/Library/Application\ Support/azuredatastudio/User/keybindings.json
+  mkdir -p /Users/niels/Library/Application\ Support/azuredatastudio/User
   ln -s /Users/niels/repos/dotfiles/ads/keybindings.json /Users/niels/Library/Application\ Support/azuredatastudio/User/keybindings.json
   chflags nouchg /Users/niels/Library/Application\ Support/azuredatastudio/User/keybindings.json
 
   rm -f /Users/niels/Library/Application\ Support/azuredatastudio/User/settings.json
+  mkdir -p Users/niels/Library/Application\ Support/azuredatastudio/User
   ln -s /Users/niels/repos/dotfiles/ads/settings.json /Users/niels/Library/Application\ Support/azuredatastudio/User/settings.json
   chflags nouchg /Users/niels/Library/Application\ Support/azuredatastudio/User/settings.json
   success "Finished Azure Data Studio settings"
 
   info "VSCode settings"
   rm -f /Users/niels/Library/Application\ Support/Code/User/settings.json
+  mkdir -p /Users/niels/Library/Application\ Support/Code/User
   ln -s /Users/niels/repos/dotfiles/vscode/settings.json /Users/niels/Library/Application\ Support/Code/User/settings.json
   chflags nouchg /Users/niels/Library/Application\ Support/Code/User/settings.json
   
   rm -f /Users/niels/Library/Application\ Support/Code/User/syncLocalSettings.json
+  mkdir -p /Users/niels/Library/Application\ Support/Code/User
   ln -s /Users/niels/repos/dotfiles/vscode/syncLocalSettings.json /Users/niels/Library/Application\ Support/Code/User/syncLocalSettings.json
   chflags nouchg /Users/niels/Library/Application\ Support/Code/User/syncLocalSettings.json
   success "Finished VSCode settings"
@@ -74,7 +82,9 @@ create_symlinks() {
 
   info "Pandoc"
   rm -rf /Users/niels/.local/share/pandoc
-  ln -s /Users/niels/repos/dotfiles/pandoc/pandoc /Users/niels/.local/share/pandoc
+  mkdir -p /Users/niels/.local
+  mkdir -p /Users/niels/.local/share
+  ln -s /Users/niels/repos/dotfiles/pandocsrc/pandoc /Users/niels/.local/share/pandoc
   success "Finished Pandoc"
 }
 
