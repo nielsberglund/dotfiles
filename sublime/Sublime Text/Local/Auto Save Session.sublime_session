@@ -1,0 +1,643 @@
+{
+	"file_history":
+	[
+		"/Users/niels/.zshrc",
+		"/Users/niels/repos/dotfiles/scripts/oh-my-zsh.sh",
+		"/Users/niels/repos/dotfiles/scripts/osx.sh",
+		"/Users/niels/repos/dotfiles/scratchpad/finder.sh",
+		"/Users/niels/repos/dotfiles/scripts/symlinks.sh"
+	],
+	"folder_history":
+	[
+	],
+	"last_version": 4143,
+	"last_window_id": 9,
+	"log_indexing": false,
+	"next_update_check": 1671369293,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 600.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			288.0,
+			-765.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/niels/repos/dotfiles/scratchpad/finder.sh"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 800.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/niels/repos/dotfiles/scratchpad/finder.sh"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "YnBsaXN0MDDUAQIDBAUGBx5YJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctsICQoLDA0ODxAREhMUFRYXGBkaGxwcXxATTlNXaW5kb3dXb3Jrc3BhY2VJRF8QEF9OU1dpbmRvd0xheW91dHNbTlNDbGFzc05hbWVbTlNTdHlsZU1hc2tfEBlfTlNXaW5kb3dSZXNpemVHZW5lcmF0aW9uXk5TV2luZG93TnVtYmVyXxAmTlNXaW5kb3dNYW5hZ2VtZW50UGVyc2lzdGVudElkZW50aWZpZXJdTlNXaW5kb3dGcmFtZVdOU1RpdGxlXxAQTlNGaXJzdFJlc3BvbmRlcl8QF05TVW5tYW5hZ2VkV2luZG93RnJhbWUygAWABoAEEA8QABCTgAGAAoADgACAAK8QEB8gISIjJCUuNDU2PENERUhVJG51bGxfECQyMjk3ODJBRC05NzRELTQ1NzktQjFGMi0wODEzNjAxMTYyRjFfEB0yODggMTY1IDgwMCA2MjggMCAwIDE1MTIgOTQ0IFh1bnRpdGxlZFhQWFdpbmRvd1DTJicoKSstV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhKoAHoSyAC4AP0y8wKDEyM18QGE5TU2NyZWVuTGF5b3V0VVVJRFN0cmluZ18QEk5TU2NyZWVuTGF5b3V0U2l6ZYAIgAmACl8QJDM3RDg4MzJBLTJENjYtMDJDQS1COUY3LThGMzBBMzAxQjIzMFt7MTUxMiwgOTgyfdI3ODk6WiRjbGFzc25hbWVYJGNsYXNzZXNeTlNTY3JlZW5MYXlvdXSiOTtYTlNPYmplY3TUPT4oP0AXQUJfEB9OU1dpbmRvd0xheW91dFNjcmVlbkxheW91dEZyYW1lXxAeTlNXaW5kb3dMYXlvdXRSZXNpemVHZW5lcmF0aW9uXxAZTlNXaW5kb3dMYXlvdXRXaW5kb3dGcmFtZYANgA6ADF8QGHt7Mjg4LCAxNjV9LCB7ODAwLCA2Mjh9fV8QFXt7MCwgMH0sIHsxNTEyLCA5NDR9fdI3OEZHXk5TV2luZG93TGF5b3V0okY70jc4SUpcTlNEaWN0aW9uYXJ5okk7AAgAEQAaACQAKQAyADcASQBgAHYAiQCVAKEAvQDMAPUBAwELAR4BOAE6ATwBPgFAAUIBRAFGAUgBSgFMAU4BYQFnAY4BrgG3AcABwQHIAdAB2wHiAeQB5gHoAeoB7AHzAg4CIwIlAicCKQJQAlwCYQJsAnUChAKHApACmQK7AtwC+AL6AvwC/gMZAzEDNgNFA0gDTQNaAAAAAAAAAgEAAAAAAAAASwAAAAAAAAAAAAAAAAAAA10",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 8,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/niels/repos/dotfiles/Brewfile",
+					"settings":
+					{
+						"buffer_size": 907,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAMwAAAAAAAAAzQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzAAAAAAAAADMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"paste",
+							null,
+							"AQAAAM0AAAAAAAAA4wAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzQAAAAAAAADNAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							5,
+							"left_delete",
+							null,
+							"BQAAANEAAAAAAAAA0QAAAAAAAAABAAAAINAAAAAAAAAA0AAAAAAAAAABAAAAd88AAAAAAAAAzwAAAAAAAAABAAAAZc4AAAAAAAAAzgAAAAAAAAABAAAAcs0AAAAAAAAAzQAAAAAAAAABAAAAYg",
+							"AQAAAAAAAAABAAAA0gAAAAAAAADSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "'"
+							},
+							"AQAAANEAAAAAAAAA0gAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA0QAAAAAAAADRAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": "'"
+							},
+							"AQAAAN8AAAAAAAAA4AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA3wAAAAAAAADfAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAGsBAAAAAAAAbAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAawEAAAAAAABrAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"paste",
+							null,
+							"AQAAAGwBAAAAAAAAiwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbAEAAAAAAABsAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": "c"
+							},
+							"AQAAAGwBAAAAAAAAbQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbAEAAAAAAABsAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": "'"
+							},
+							"AQAAAHEBAAAAAAAAcgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcQEAAAAAAABxAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							30,
+							1,
+							"insert",
+							{
+								"characters": "'"
+							},
+							"AQAAAI0BAAAAAAAAjgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjQEAAAAAAACNAQAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/niels/repos/dotfiles/scratchpad/finder.sh"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/niels/repos/dotfiles/Brewfile",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 907,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										398,
+										398
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 14.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "YnBsaXN0MDDUAQIDBAUGByJYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlct0ICQoLDA0ODxAREhMUFRYXFxkZGxwdHh8gIV1OU1dpbmRvd0ZyYW1lV05TVGl0bGVXTlNJc0tleVhOU0lzTWFpbl8QEE5TRmlyc3RSZXNwb25kZXJfEBdOU1VubWFuYWdlZFdpbmRvd0ZyYW1lMltOU0NsYXNzTmFtZV8QEF9OU1dpbmRvd0xheW91dHNbTlNTdHlsZU1hc2tfECZOU1dpbmRvd01hbmFnZW1lbnRQZXJzaXN0ZW50SWRlbnRpZmllcl8QGV9OU1dpbmRvd1Jlc2l6ZUdlbmVyYXRpb25fEBNOU1dpbmRvd1dvcmtzcGFjZUlEXk5TV2luZG93TnVtYmVygAKAAwkJgACAAIAEgAYQD4ABEACABRCUrxAQIyQlJicoKTI4OTpAR0hJTFUkbnVsbF8QJEU1OEY2NEIwLTU4QTAtNDBDRC05NUIzLTFEQ0JBNUZCMUU4N18QHTM5NyAxOTAgODAwIDYyOCAwIDAgMTUxMiA5NDQgWEJyZXdmaWxlWFBYV2luZG93UNMqKywtLzFXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6EugAehMIALgA/TMzQsNTY3XxAYTlNTY3JlZW5MYXlvdXRVVUlEU3RyaW5nXxASTlNTY3JlZW5MYXlvdXRTaXplgAiACYAKXxAkMzdEODgzMkEtMkQ2Ni0wMkNBLUI5RjctOEYzMEEzMDFCMjMwW3sxNTEyLCA5ODJ90js8PT5aJGNsYXNzbmFtZVgkY2xhc3Nlc15OU1NjcmVlbkxheW91dKI9P1hOU09iamVjdNRBQixDRB9FRl8QH05TV2luZG93TGF5b3V0U2NyZWVuTGF5b3V0RnJhbWVfEB5OU1dpbmRvd0xheW91dFJlc2l6ZUdlbmVyYXRpb25fEBlOU1dpbmRvd0xheW91dFdpbmRvd0ZyYW1lgA2ADoAMXxAYe3szOTcsIDE5MH0sIHs4MDAsIDYyOH19XxAVe3swLCAwfSwgezE1MTIsIDk0NH190js8SkteTlNXaW5kb3dMYXlvdXSiSj/SOzxNTlxOU0RpY3Rpb25hcnmiTT8ACAARABoAJAApADIANwBJAGQAcgB6AIIAiwCeALgAxADXAOMBDAEoAT4BTQFPAVEBUgFTAVUBVwFZAVsBXQFfAWEBYwFlAXgBfgGlAcUBzgHXAdgB3wHnAfIB+QH7Af0B/wIBAgMCCgIlAjoCPAI+AkACZwJzAngCgwKMApsCngKnArAC0gLzAw8DEQMTAxUDMANIA00DXANfA2QDcQAAAAAAAAIBAAAAAAAAAE8AAAAAAAAAAAAAAAAAAAN0",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 9,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
