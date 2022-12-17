@@ -24,14 +24,14 @@
     // match your system convention. For example, Windows machines should
     // have a path similar to "C:\\Users\\username\\site\\_posts".
     // *nix systems should have a path similar to "/Users/username/site/_posts".
-    "jekyll_posts_path": "W:\\nielsb-work\\GitHub-Repos\\gh-nielsberglund\\nielsberglund.com\\content\\posts",
+    "jekyll_posts_path": "/Users/niels/repos/nielsberglund.com/content/posts",
 
     // This should point to your "_drafts" directory.
     // NOTE: This should be an absolute path. Also, the path should
     // match your system convention. For example, Windows machines should
     // have a path similar to "C:\\Users\\username\\site\\_drafts".
     // *nix systems should have a path similar to "/Users/username/site/_drafts".
-    "jekyll_drafts_path": "W:\\nielsb-work\\GitHub-Repos\\gh-nielsberglund\\nielsberglund.com\\_drafts",
+    "jekyll_drafts_path": "/Users/niels/repos/nielsberglund.com/_drafts",
 
     // Optionally override the location of the templates directory.
     // Make sure your override directory is named "_templates", especially
@@ -40,7 +40,7 @@
     // match your system convention. For example, Windows machines should
     // have a path similar to "C:\\Users\\username\\site\\templates".
     // *nix systems should have a path similar to "/Users/username/site/_templates".
-    "jekyll_templates_path": "W:\\nielsb-work\\GitHub-Repos\\gh-nielsberglund\\nielsberglund.com\\_hugotemplates",
+    "jekyll_templates_path": "/Users/niels/repos/nielsberglund.com/_hugotemplates",
 
     // If you have multiple Jekyll blogs, but don't use Sublime Projects,
     // you can optionally have sublime-jekyll look for the `_posts` or `_drafts`
