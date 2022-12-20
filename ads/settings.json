@@ -1,0 +1,192 @@
+{
+    "workbench.enablePreviewFeatures": true,
+    "notebook.pythonPath": "C:\\Users\\niels\\azuredatastudio-python",
+    "notebook.useExistingPython": false,
+    "editor.fontSize": 20,
+    "editor.tabSize": 2,
+    "datasource.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "C777F06B-202E-4480-B475-FA416154D458"
+        },
+        {
+            "name": "cdc-test-local",
+            "id": "7e4d1685-a401-4fcd-98c3-944b56822144",
+            "parentId": "C777F06B-202E-4480-B475-FA416154D458",
+            "color": "#A1634D",
+            "description": ""
+        },
+        {
+            "name": "on-prem-casino",
+            "id": "853f3acb-addc-4943-93b7-eb38f519d2ab",
+            "parentId": "C777F06B-202E-4480-B475-FA416154D458",
+            "color": "#4452A6",
+            "description": ""
+        }
+    ],
+    "datasource.connections": [
+        {
+            "options": {
+                "connectionName": "pg-docker-cdctest",
+                "host": "localhost",
+                "authenticationType": "SqlLogin",
+                "dbname": "",
+                "user": "postgres",
+                "password": "",
+                "applicationName": "azdata",
+                "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+                "databaseDisplayName": ""
+            },
+            "groupId": "7e4d1685-a401-4fcd-98c3-944b56822144",
+            "providerName": "PGSQL",
+            "savePassword": true,
+            "id": "de9c8fe7-4abe-4382-92bc-cd5b69e2647b"
+        },
+        {
+            "options": {
+                "connectionName": "s2k19-docker-cdctest-1",
+                "server": "localhost",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "azdata",
+                "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+                "databaseDisplayName": ""
+            },
+            "groupId": "7e4d1685-a401-4fcd-98c3-944b56822144",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "52f42575-b832-4498-b90e-08962bf3c7a0"
+        },
+        {
+            "options": {
+                "connectionName": "s2k19-docker-azure-1",
+                "server": "localhost, 1403",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "azdata",
+                "groupId": "853f3acb-addc-4943-93b7-eb38f519d2ab",
+                "databaseDisplayName": ""
+            },
+            "groupId": "853f3acb-addc-4943-93b7-eb38f519d2ab",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "4995b630-3c08-4025-ae73-e888a5ee02e7"
+        },
+        {
+            "options": {
+                "connectionName": "s2k19-docker-mitqf",
+                "server": "localhost,1402",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "azdata",
+                "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+                "databaseDisplayName": ""
+            },
+            "groupId": "15bf715a-0999-4b6f-bc9b-cbec689942a2",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "170aca59-f203-47bb-8df1-c5d61b06fa2d"
+        },
+        {
+            "options": {
+                "connectionName": "s2k19-docker-cdc-sink",
+                "server": "localhost,1402",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "azdata",
+                "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+                "databaseDisplayName": ""
+            },
+            "groupId": "7e4d1685-a401-4fcd-98c3-944b56822144",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "d08ad51c-1920-4ffd-ac86-be4a5f2e857b"
+        },
+        {
+            "options": {
+                "connectionName": "azure-sql-db-1",
+                "server": "yld-devtest-lb-sqlserver.database.windows.net",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sqladmin",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "azdata",
+                "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+                "databaseDisplayName": ""
+            },
+            "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "a1303ffd-0ab4-4611-af10-14d56a6d1492"
+        },
+        {
+            "options": {
+                "connectionName": "s2k19-docker-mal-casino",
+                "server": "localhost",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "azdata",
+                "groupId": "853f3acb-addc-4943-93b7-eb38f519d2ab",
+                "databaseDisplayName": ""
+            },
+            "groupId": "853f3acb-addc-4943-93b7-eb38f519d2ab",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "5cbce9dc-c597-46eb-9d61-11beba674879"
+        },
+        {
+            "options": {
+                "connectionName": "s2k19-docker-mit-casino",
+                "server": "localhost,1402",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "azdata",
+                "groupId": "853f3acb-addc-4943-93b7-eb38f519d2ab",
+                "databaseDisplayName": ""
+            },
+            "groupId": "853f3acb-addc-4943-93b7-eb38f519d2ab",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "467812f8-5340-4e9b-9133-4051d87d5c08"
+        },
+        {
+            "options": {
+                "connectionName": "s2k19-docker-single-1",
+                "server": "localhost",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "azdata",
+                "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+                "databaseDisplayName": ""
+            },
+            "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+            "providerName": "MSSQL",
+            "savePassword": false,
+            "id": "b2b917e2-0035-4790-be0d-2167f1452fc8"
+        }
+    ],
+    "workbench.startupEditor": "welcomePage",
+    "notebook.dontPromptPythonUpdate": true,
+    "azure.tenant.config.filter": [
+        "1b0138f0-7f77-42ce-8e7f-70f542260d13"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+        "*.{sqlplan}": "workbench.editor.executionplan"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "editor.fontSize": 18,
+    "editor.tabSize": 2,
+    "sync.gist": "5d1c68f179ef0921044de5ef1c8d8dd2",
+
+    // @sync os=windows
+    //"editor.fontFamily": "Cascadia Code PL",
+    
+    // @sync os=windows
+    //"terminal.integrated.fontSize": 18,
+    // @sync os=windows
+    //"terminal.integrated.fontFamily": "Cascadia Code PL",
+    "settingsSync.ignoredExtensions": [
+    
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "redhat.telemetry.enabled": true,
+        
+    // @sync os=mac
+    "editor.fontFamily": "MesloLGS NF",
+
+    // @sync os=mac
+    "terminal.external.osxExec": "iTerm2.app",
+
+    // @sync os=mac
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    // @sync os=mac
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    
+    // @sync os=mac
+    "terminal.integrated.fontSize": 18
+}
