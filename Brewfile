@@ -8,7 +8,6 @@ tap 'romkatv/powerlevel10k'
 tap 'isen-ng/dotnet-sdk-versions'
 tap 'microsoft/git'
 
-cask 'cask alt-tab'
 cask 'azure-data-studio'
 cask 'cleanmymac'
 cask 'confluent-cli'

@@ -34,5 +34,6 @@
     "terminal.integrated.defaultProfile.osx": "zsh",
     
     // @sync os=mac
-    "terminal.integrated.fontSize": 18
+    "terminal.integrated.fontSize": 18,
+    "security.workspace.trust.untrustedFiles": "open"
 }
