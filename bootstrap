@@ -51,6 +51,12 @@ info "Bootstrapping..."
 
 install_homebrew
 
+# write to .zprofile
+echo PATH=/opt/homebrew/bin:$PATH >> ~/.zprofile
+source ~/.zprofile
+export PATH=/opt/homebrew/bin:$PATH
+
+
 info "Installing Git"
 brew install git
 
@@ -60,6 +66,6 @@ git clone "$REPO_URL" "$REPO_PATH"
 info "Change path to $REPO_PATH"
 cd "$REPO_PATH" >/dev/null
 
-./setup.sh
+# ./setup.sh
 
 

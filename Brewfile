@@ -32,6 +32,7 @@ cask 'vlc'
 
 brew 'azure-cli'
 brew 'azure-functions-core-tools@4'
+brew 'hugo
 brew 'maven'
 brew 'openjdk'
 brew 'pandoc'
