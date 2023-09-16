@@ -9,6 +9,7 @@ tap 'isen-ng/dotnet-sdk-versions'
 tap 'microsoft/git'
 
 cask 'azure-data-studio'
+cask 'raycast'
 cask 'cleanmymac'
 cask 'confluent-cli'
 cask 'docker'
@@ -32,11 +33,12 @@ cask 'vlc'
 
 brew 'azure-cli'
 brew 'azure-functions-core-tools@4'
-brew 'hugo
+brew 'hugo'
 brew 'maven'
 brew 'openjdk'
 brew 'pandoc'
 brew 'powerlevel10k'
+brew 'libpq'
 
 mas 'Microsoft OneNote', id: 784801555
 mas 'OneDrive', id: 823766827

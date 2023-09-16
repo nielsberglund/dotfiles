@@ -26,3 +26,11 @@ $ curl -s https://raw.githubusercontent.com/nielsberglund/dotfiles/main/bootstra
 **Code Snippet 2:** *Executing the Bootstrap Script*
 
 In *Code Snippet 2* you see how we use `curl` to execute the script, and how we pipe it to the `bash` command.
+
+#### Misc.
+
+The brewfile  installs among other things libpq (client tools for PostgreSQL). To add pqsql to the path you need to add the following to your .zshrc file:
+
+```sh
+echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc'
+```

@@ -6,5 +6,34 @@
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.editorAssociations": {
         "*.{sqlplan}": "workbench.editor.executionplan"
-    }
+    },
+    "datasource.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "C777F06B-202E-4480-B475-FA416154D458"
+        }
+    ],
+    "datasource.connections": [
+        {
+            "options": {
+                "connectionName": "risingwave",
+                "host": "localhost",
+                "authenticationType": "SqlLogin",
+                "dbname": "dev",
+                "user": "root",
+                "password": "",
+                "port": "4566",
+                "connectTimeout": "15",
+                "applicationName": "azdata",
+                "sslmode": "prefer",
+                "originalDatabase": "dev",
+                "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+                "databaseDisplayName": "dev"
+            },
+            "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+            "providerName": "PGSQL",
+            "savePassword": true,
+            "id": "8ca87eae-aeb7-413f-97aa-9c317bb17c2f"
+        }
+    ]
 }

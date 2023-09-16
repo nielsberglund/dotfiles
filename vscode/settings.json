@@ -16,9 +16,10 @@
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
         "*": true,
-        "yaml": false,
         "plaintext": true,
-        "markdown": false
+        "markdown": true,
+        "scminput": false,
+        "yaml": false
     },
     "redhat.telemetry.enabled": true,
         
@@ -35,5 +36,13 @@
     
     // @sync os=mac
     "terminal.integrated.fontSize": 18,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.inheritEnv": false,
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "editor.accessibilitySupport": "off",
+    "editor.minimap.enabled": false
 }

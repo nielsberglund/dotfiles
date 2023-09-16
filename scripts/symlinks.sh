@@ -73,3 +73,4 @@ create_symlinks() {
   success "Finished Pandoc"
 }
 
+create_symlinks
