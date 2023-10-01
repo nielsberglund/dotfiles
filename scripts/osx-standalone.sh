@@ -400,7 +400,7 @@ fi
   defaults write com.apple.dock show-recents -bool false
 
   # Have the Dock show only active apps
-  #defaults write com.apple.dock static-only -bool true
+  defaults write com.apple.dock static-only -bool false
 
   # Reset Launchpad, but keep the desktop wallpaper intact
   #find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
