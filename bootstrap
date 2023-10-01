@@ -60,6 +60,10 @@ export PATH=/opt/homebrew/bin:$PATH
 info "Installing Git"
 brew install git
 
+# install the git credential manager
+info "Installing Git Credential Manager"
+brew install --cask git-credential-manager
+
 info "Cloning .dotfiles repo from $REPO_URL into $REPO_PATH"
 git clone "$REPO_URL" "$REPO_PATH"
 

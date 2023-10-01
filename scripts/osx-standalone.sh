@@ -1,4 +1,16 @@
-setup_osx() {
+#!/usr/bin/env bash
+
+
+. ./utils.sh
+  
+info "Prompting for sudo pwd"
+if sudo -v; then
+  while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+  success "Sudo credentials updated."
+else
+  error "Could not get sudo credentials."
+fi
+  
   info "Configuring MacOS default settings"
 
   # Close any open System Preferences panes, to prevent them from overriding
@@ -559,4 +571,5 @@ setup_osx() {
     "SystemUIServer"; do
     killall "${app}" &> /dev/null
   done
-}
+    
+success "Done. Note that some of these changes require a logout/restart to take effect."

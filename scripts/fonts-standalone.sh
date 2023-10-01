@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+
+. ./utils.sh
 
 info "Prompting for sudo pwd"
 if sudo -v; then
@@ -7,5 +10,6 @@ else
   error "Could not get sudo credentials."
 fi
 
-brew bundle --file=~/repos/dotfiles/Brewfile
+cp ~/repos/dotfiles/Fonts/*.ttf ~/Library/Fonts/
 
+success "Fonts installed."

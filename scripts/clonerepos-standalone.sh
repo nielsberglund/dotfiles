@@ -1,22 +1,15 @@
-#! /usr/bin/env sh
+#!/usr/bin/env bash
 
-reset_color=$(tput sgr 0)
+. ./utils.sh
 
-info() {
-  printf "%s[*] %s%s\n" "$(tput setaf 4)" "$1" "$reset_color"
-}
+info "Prompting for sudo pwd"
+if sudo -v; then
+  while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+  success "Sudo credentials updated."
+else
+  error "Could not get sudo credentials."
+fi
 
-success() {
-  printf "%s[*] %s%s\n" "$(tput setaf 2)" "$1" "$reset_color"
-}
-
-err() {
-  printf "%s[*] %s%s\n" "$(tput setaf 1)" "$1" "$reset_color"
-}
-
-warn() {
-  printf "%s[*] %s%s\n" "$(tput setaf 3)" "$1" "$reset_color"
-}
 
 DIR=$(dirname "$0")
 cd "$DIR"
@@ -27,7 +20,7 @@ REPO_PATH="$HOME/repos/"
 
 cd ~/repos/dotfiles/gitrepos
 
-clone_repos() {
+
 
   # loop through files with a specific extension and read them line by line
   for file in $(find . -type f -name "*.list"); do
@@ -55,4 +48,4 @@ clone_repos() {
     success "Finished cloning repositories in file $file"
     cd ~/repos/dotfiles/gitrepos
   done
-}
+

@@ -1,3 +1,8 @@
+#!/usr/bin/env bash
+
+
+. ./utils.sh
+
 info "Prompting for sudo pwd"
 if sudo -v; then
   while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
