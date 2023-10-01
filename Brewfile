@@ -42,7 +42,8 @@ cask "visual-studio-code"
 cask "vlc"
 mas "Microsoft OneNote", id: 784801555
 mas "OneDrive", id: 823766827
-mas "ScreenBrush", id: 1233965871
+# mas "ScreenBrush", id: 1233965871
+mas "DemoPro", id: 1384206666
 vscode "Azurite.azurite"
 vscode "GitHub.copilot"
 vscode "GitHub.copilot-chat"
