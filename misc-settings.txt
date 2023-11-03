@@ -1,0 +1,5 @@
+iTerm2:
+
+Settings -> General -> Startup: uncheck Open profiles window
+Settings -> Advanced -> Session -> Enable session restoration -> Yes
+Settings -> Advanced -> General -> Open a window at startup -> No
