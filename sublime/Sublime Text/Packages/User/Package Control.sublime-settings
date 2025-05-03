@@ -5,10 +5,7 @@
 	],
 	"installed_packages":
 	[
-		"Compare Side-By-Side",
-		"Hugofy",
 		"Jekyll",
 		"Package Control",
-		"Pretty JSON"
 	],
 }

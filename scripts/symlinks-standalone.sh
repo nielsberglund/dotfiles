@@ -21,24 +21,53 @@
   success "Finished Office Settings"
 
 
-  info "Azure Data Studio settings"
-  rm -f ~/Library/Application\ Support/azuredatastudio/User/keybindings.json
-  mkdir -p ~/Library/Application\ Support/azuredatastudio/User
-  ln -s ~/repos/dotfiles/ads/keybindings.json ~/Library/Application\ Support/azuredatastudio/User
-  chflags nouchg ~/Library/Application\ Support/azuredatastudio/User/keybindings.json
+  # info "Azure Data Studio settings"
+  # rm -f ~/Library/Application\ Support/azuredatastudio/User/keybindings.json
+  # mkdir -p ~/Library/Application\ Support/azuredatastudio/User
+  # ln -s ~/repos/dotfiles/ads/keybindings.json ~/Library/Application\ Support/azuredatastudio/User
+  # chflags nouchg ~/Library/Application\ Support/azuredatastudio/User/keybindings.json
 
-  rm -f ~/Library/Application\ Support/azuredatastudio/User/settings.json
-  mkdir -p ~/Library/Application\ Support/azuredatastudio/User
-  ln -s ~/repos/dotfiles/ads/settings.json ~/Library/Application\ Support/azuredatastudio/User/settings.json
-  chflags nouchg ~/Library/Application\ Support/azuredatastudio/User/settings.json
-  success "Finished Azure Data Studio settings"
+  # rm -f ~/Library/Application\ Support/azuredatastudio/User/settings.json
+  # mkdir -p ~/Library/Application\ Support/azuredatastudio/User
+  # ln -s ~/repos/dotfiles/ads/settings.json ~/Library/Application\ Support/azuredatastudio/User/settings.json
+  # chflags nouchg ~/Library/Application\ Support/azuredatastudio/User/settings.json
+  # success "Finished Azure Data Studio settings"
 
-  info "VSCode settings"
-  rm -f ~/Library/Application\ Support/Code/User/settings.json
-  mkdir -p ~/Library/Application\ Support/Code/User
-  ln -s  ~/repos/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-  chflags nouchg ~/Library/Application\ Support/Code/User/settings.json
-  success "Finished VSCode settings"
+  if [ -d "/Users/nielsb/.vscode" ]; then
+    info "VSCode settings"
+    DIR="$HOME/Library/Application Support/Code/User"
+    EXTDIR="$HOME/.vscode/extensions"
+    GITDIR="$HOME/repos/dotfiles/vscode"
+    GITEXTDIR="$HOME/repos/dotfiles/vscode/extensions"
+    rm -f "$DIR/settings.json"
+    rm -f "$EXTDIR/extensions.json"
+    mkdir -p "$DIR"
+    ln -s  "$GITDIR/settings.json" "$DIR/settings.json"
+    mkdir -p "$EXTDIR"
+    ln -s  "$GITEXTDIR/extensions.json" "$EXTDIR/extensions.json"
+    chflags nouchg "$DIR/settings.json" 
+    chflags nouchg "$EXTDIR/extensions.json"
+    success "Finished VSCode settings"
+  fi
+
+  if [ -d "/Users/nielsb/.vscode-insiders" ]; then
+    info "VSCode Insiders settings"
+    DIR="$HOME/Library/Application Support/Code - Insiders/User"
+    EXTDIR="$HOME/.vscode-insiders/extensions"
+    GITDIR="$HOME/repos/dotfiles/vscodeinsiders"
+    GITEXTDIR="$HOME/repos/dotfiles/vscodeinsiders/extensions"
+    rm -f "$DIR/settings.json"
+    rm -f "$EXTDIR/extensions.json"
+    mkdir -p "$DIR"
+    ln -s  "$GITDIR/settings.json" "$DIR/settings.json"
+    mkdir -p "$EXTDIR"
+    ln -s  "$GITEXTDIR/extensions.json" "$EXTDIR/extensions.json"
+    chflags nouchg "$DIR/settings.json" 
+    chflags nouchg "$EXTDIR/extensions.json"
+    success "Finished VSCode Insiders settings"
+  fi
+
+
 
   info "Git config"
   rm -f ~/.gitconfig

@@ -48,4 +48,5 @@
 	"use_tab_stops": false,
 	"draw_unicode_white_space": "none",
 	"default_line_ending": "unix",
+	"index_files": true,
 }
