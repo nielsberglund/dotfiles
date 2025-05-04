@@ -3,7 +3,7 @@
 
 . ./utils.sh
 
-
+  # the plist need to be copied
   info "iTerm plist"
   rm -f ~/Library/Preferences/com.googlecode.iterm2.plist
   ln -s ~/repos/dotfiles/iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
@@ -80,13 +80,13 @@
   success "Git config"
 
   info "zshrc"
-  rm -f /Users/niels/.zshrc
+  rm -f ~/.zshrc
   ln -s ~/repos/dotfiles/zsh/.zshrc ~/
   chflags nouchg ~/.zshrc
   success "Finished zshrc"
 
   info "p10k"
-  rm -f /Users/niels/.p10k.zsh
+  rm -f ~/.p10k.zsh
   ln -s ~/repos/dotfiles/zsh/.p10k.zsh ~/
   chflags nouchg ~/.p10k.zsh
   success "Finished p10k"

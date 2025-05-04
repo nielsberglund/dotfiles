@@ -1,0 +1,8 @@
+If you pull the repo to a new machine, you have to remove the submodule, and then re-add it:
+
+git rm --cached themes/hugo-theme-cleanwhite
+git submodule add themes/hugo-theme-cleanwhite
+
+If you clone the repo you can also do:
+
+git clone --recurse-submodules https://github.com/nielsberglund/nielsblogsource.git
