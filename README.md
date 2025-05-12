@@ -65,3 +65,30 @@ echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc'
 **Code Snippet 4:** *Add libpq to Path*
 
 You may have to uncheck the `Dock > Show recent applications in Dock` setting in System Preferences.
+
+## Manual Installs/Settings
+
+### Hugo/GitHub Repos
+
+When cloning the nielsberglund.com and aimldatadurban.org repos, use:
+
+`git clone --recurse-submodules https://github.com/nielsberglund/nielsblogsource.git`
+
+### Magnifier
+
+In Settings/Accessibility Zoom:
+
+* Enable: "Use keyboard shortcuts to zoom"
+* Enable: "Use trackpad gesture to zoom"
+
+In Advanced "Zoomed images moves":
+
+* Enable "Continiously with pointer"
+
+
+
+
+
+
+
+

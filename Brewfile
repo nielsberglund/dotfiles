@@ -41,3 +41,4 @@ cask "visual-studio-code@insiders"
 cask "cursor"
 cask "vlc"
 mas "OneDrive", id: 823766827
+mas "DemoPro", id: 1384206666
