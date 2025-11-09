@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 16,
+    "editor.fontSize": 18,
     "editor.tabSize": 2,
     "sync.gist": "5d1c68f179ef0921044de5ef1c8d8dd2",
 
@@ -44,8 +44,9 @@
     },
     "editor.accessibilitySupport": "off",
     "editor.minimap.enabled": false,
-    "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniforge/base/bin/python",
+    "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniforge/base",
     "workbench.layoutControl.enabled": false,
     "window.newWindowProfile": "Default",
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "database-client.autoSync": true
 }

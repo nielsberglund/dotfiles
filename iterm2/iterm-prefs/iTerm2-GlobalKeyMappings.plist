@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>GlobalKeyMap</key>
+  <dict>
+    <key>0xF702-0x80000</key>
+    <dict>
+      <key>Action</key>
+      <string>Send Hex Code</string>
+      <key>Text</key>
+      <string>0x01</string> <!-- Ctrl+A = Beginning of line -->
+    </dict>
+    <key>0xF703-0x80000</key>
+    <dict>
+      <key>Action</key>
+      <string>Send Hex Code</string>
+      <key>Text</key>
+      <string>0x05</string> <!-- Ctrl+E = End of line -->
+    </dict>
+    <key>0xF702-0x8000</key>
+    <dict>
+      <key>Action</key>
+      <string>Send Escape Sequence</string>
+      <key>Text</key>
+      <string>b</string> <!-- Back one word -->
+    </dict>
+    <key>0xF703-0x8000</key>
+    <dict>
+      <key>Action</key>
+      <string>Send Escape Sequence</string>
+      <key>Text</key>
+      <string>f</string> <!-- Forward one word -->
+    </dict>
+  </dict>
+</dict>
+</plist>
